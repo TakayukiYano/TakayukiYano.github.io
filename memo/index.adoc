@@ -8,6 +8,7 @@
 :imagesdir: ./images
 :icons: font
 :source-highlighter: coderay
+:cache-uri: "./cache.manifest"
 
 
 = 個人用メモ
