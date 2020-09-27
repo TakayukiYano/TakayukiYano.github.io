@@ -140,6 +140,7 @@
 ** 特定の送信設備(スタジオ的なもの:特定の会社等に存在する)を利用することで +
 本来送信資格がない人も利用は可能となる
 ** これは創価の自主的な運用制限であって、技術的な制限ではない +
+* from link:https://twitter.com/Scott_Free973/status/1292386363132858368[転載元:https://twitter.com/Scott_Free973/status/1292386363132858368]
 
 video::brainjack.mp4[options=autoplay]
 
