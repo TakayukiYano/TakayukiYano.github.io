@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="generator" content="Asciidoctor 2.0.12">
 <title>創価に目をつけられた人間の行く末</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -47,7 +47,7 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 *,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -62,10 +62,8 @@ img{-ms-interpolation-mode:bicubic}
 img,object,svg{display:inline-block;vertical-align:middle}
 textarea{height:auto;min-height:50px}
 select{width:100%}
-.center{margin-left:auto;margin-right:auto}
-.stretch{width:100%}
 .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
-div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
 a{color:#2156a5;text-decoration:underline;line-height:inherit}
 a:hover,a:focus{color:#1d4b8f}
 a img{border:0}
@@ -105,19 +103,22 @@ h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
 h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede;word-wrap:normal}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt{background:#f8f8f7}
-table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
 .clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
 .clearfix::after,.float-group::after{clear:both}
-:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
-:not(pre)>code.nobreak{word-wrap:normal}
-:not(pre)>code.nowrap{white-space:nowrap}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
 pre>code{display:block}
@@ -182,7 +183,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
-#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
 #footer-text{color:rgba(255,255,255,.8);line-height:1.44}
 #content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
@@ -205,7 +206,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .admonitionblock>table td.icon{text-align:center;width:80px}
 .admonitionblock>table td.icon img{max-width:none}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
-.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
 .exampleblock>.content>:first-child{margin-top:0}
@@ -215,7 +216,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
 .exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
@@ -261,21 +262,20 @@ pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
 .quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
 .quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
-table.tableblock{max-width:100%;border-collapse:separate}
 p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
 td.tableblock>.content>:last-child{margin-bottom:-1.25em}
-td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
-table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
-table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
-table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
-table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
-table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
-table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
 table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
 table.frame-sides{border-width:0 1px}
-table.frame-topbot,table.frame-ends{border-width:1px 0}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
 table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
@@ -284,7 +284,7 @@ th.valign-top,td.valign-top{vertical-align:top}
 th.valign-bottom,td.valign-bottom{vertical-align:bottom}
 th.valign-middle,td.valign-middle{vertical-align:middle}
 table thead th,table tfoot th{font-weight:bold}
-tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th{background:#f7f8f7}
 tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
 p.tableblock>code:only-child{background:none;padding:0}
 p.tableblock{font-size:1em}
@@ -313,6 +313,7 @@ ol.lowergreek{list-style-type:lower-greek}
 .hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
 .colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
 .colist td:not([class]):first-child img{max-width:none}
@@ -385,7 +386,7 @@ a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
 .admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
 .admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:50%;border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
 .conum[data-value] *{color:#fff!important}
 .conum[data-value]+b{display:none}
 .conum[data-value]::after{content:attr(data-value)}
@@ -412,6 +413,7 @@ thead{display:table-header-group}
 svg{max-width:100%}
 p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
 h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
 #toc,.sidebarblock,.exampleblock>.content{background:none!important}
 #toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
 body.book #header{text-align:center}
@@ -456,7 +458,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_思考盗聴">思考盗聴</a></li>
 <li><a href="#_洗脳">洗脳</a></li>
 <li><a href="#_情報操作">情報操作</a></li>
-<li><a href="#_最終的な結果">最終的な結果</a></li>
 </ul>
 </li>
 <li><a href="#_攻撃者は誰">攻撃者は誰？</a></li>
@@ -466,8 +467,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_嫌がらせビジネスは成り立つのか">嫌がらせビジネスは成り立つのか</a></li>
 <li><a href="#_インフルエンサーの取り込み">インフルエンサーの取り込み</a></li>
 <li><a href="#_なぜ捜査されないか">なぜ捜査されないか</a></li>
-<li><a href="#_宗教がらみという可能性がありえるかどうか">宗教がらみという可能性がありえるかどうか？</a></li>
-<li><a href="#_深夜に電磁波照射等を止めている理由">深夜に電磁波照射等を止めている理由</a></li>
 <li><a href="#_コロナと集団ストーカー">コロナと集団ストーカー</a></li>
 <li><a href="#_今後の対策">今後の対策</a></li>
 <li><a href="#_わからないこと">わからないこと</a></li>
@@ -965,95 +964,6 @@ Your browser does not support the video tag.
 </ul>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_最終的な結果">最終的な結果</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>すべてが明らかになる</p>
-<div class="ulist">
-<ul>
-<li>
-<p>自分の完全勝利。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>そもそも過去の証拠など無いので攻撃側の内部告発以外にありえない。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>このパターンとなる可能性は極めて低い</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>自分が行動不可能になり、警察等の捜査もされない場合</p>
-<div class="ulist">
-<ul>
-<li>
-<p>攻撃者側の完全勝利（攻撃者が目指しているものはココ）</p>
-<div class="ulist">
-<ul>
-<li>
-<p>攻撃者側が自分を殺害する、あるいは神経麻痺等の場合など、</p>
-<div class="ulist">
-<ul>
-<li>
-<p>このパターンの可能性は十分にある</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>上記の中間</p>
-<div class="ulist">
-<ul>
-<li>
-<p>攻撃側の目的に合致し、なおかつ自分が損をしない(過去の損分が取り返せる)パターン</p>
-<div class="ulist">
-<ul>
-<li>
-<p>話し合い以外にはあり得なさそうだが、そもそも誰がやっているかも不明、、、</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>その他</p>
-<div class="ulist">
-<ul>
-<li>
-<p>このまま何年も継続</p>
-<div class="ulist">
-<ul>
-<li>
-<p>この可能性が一番高そう</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-</div>
 </div>
 </div>
 <div class="sect1">
@@ -1064,38 +974,18 @@ Your browser does not support the video tag.
 <li>
 <p>実行犯は創価学会。裏には大阪大学がいる</p>
 </li>
-</ul>
-</div>
+<li>
+<p>数年にわたって仕掛けていることから対象者との直接的な利害目的である可能性が低い</p>
 <div class="ulist">
 <ul>
-<li>
-<p><span class="line-through">相応の費用がかかっており、攻撃者の金銭的なメリットが少ない（というか無い）</span></p>
-</li>
-<li>
-<p>人体実験のサンプルとなっている。</p>
-</li>
 <li>
 <p>創価側はスパコンビジネス等で国→大学等→創価系企業の流れで金を受領出来る</p>
 </li>
 </ul>
 </div>
-<div class="ulist">
-<ul>
+</li>
 <li>
 <p>組織的な連携プレーが見られ、扇動者によるものでは無い</p>
-</li>
-<li>
-<p><span class="line-through">創価なのかそうでないのかは明らかでないが相当頭のおかしい組織であることは間違いない</span></p>
-<div class="ulist">
-<ul>
-<li>
-<p>創価で確定</p>
-</li>
-<li>
-<p><span class="line-through">しかも想像以上に巨大な組織→創価以外に考えられるか？</span></p>
-</li>
-</ul>
-</div>
 </li>
 </ul>
 </div>
@@ -1186,41 +1076,14 @@ Your browser does not support the video tag.
 <li>
 <p>創価癒着企業から創価へという金の流れ</p>
 </li>
+<li>
+<p><a href="https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%87%E3%83%B3%E3%83%95%E3%83%AD%E3%82%A4%E3%83%87">創価学会員とはこういう人たち</a>で構成されている</p>
+</li>
 </ul>
 </div>
 </li>
-<li>
-<p>5年に渡り継続している</p>
-<div class="ulist">
-<ul>
-<li>
-<p>大衆は嫌がらせが大好き</p>
-<div class="ulist">
-<ul>
-<li>
-<p>ここが自分の認識ミス(性善説が偽である証明)</p>
-</li>
-<li>
-<p>他人を攻撃することが楽しくて仕方がないという人間が大多数</p>
-</li>
-<li>
-<p>自分には全く理解出来ないのだが、<a href="https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%87%E3%83%B3%E3%83%95%E3%83%AD%E3%82%A4%E3%83%87">こういう人</a>の方が普通で、自分はどうやら少数派らしい</p>
-<div class="ulist">
-<ul>
 <li>
 <p>捜査されることがないため、ばれることが無い</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>(現時点では)十分成り立つ</p>
 </li>
 </ul>
 </div>
@@ -1323,96 +1186,6 @@ Your browser does not support the video tag.
 </li>
 </ul>
 </div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_宗教がらみという可能性がありえるかどうか">宗教がらみという可能性がありえるかどうか？</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>創価を始めとした組織的な犯行とした場合、<br>
-創価側のメリットが無いため、当初懐疑的だったが<br>
-以下の場合には成り立つ</p>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>資産以外の評価基準が今後増えることが予想される。</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>信用、イメージ、人気など</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>気に入らない人間に対してこういった価値を下げることの依頼が可能になる</p>
-</li>
-<li>
-<p>一人の人間の人生をこわすことに成功したという実績を積むことで<br>
-依頼側へのアピールとなる。</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>実績は複数必要なため、当然自分以外にもやられていることの証明にもなる</p>
-</li>
-<li>
-<p>創価とその賛同者で支配が可能</p>
-</li>
-<li>
-<p>実績を積むためには失敗しないことが重要</p>
-<div class="ulist">
-<ul>
-<li>
-<p>ココを潰せば攻撃者側は困る</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_深夜に電磁波照射等を止めている理由">深夜に電磁波照射等を止めている理由</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>送信場所と送信者が別の場所であることが原因では？</p>
-</li>
-<li>
-<p>寝ている間に測定されて、踏み込まれると困るためでは無いか？</p>
-<div class="ulist">
-<ul>
-<li>
-<p>現行犯以外は逮捕されないという自信を持っているため？</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>隣のバイトくんが昼間担当、老婆が夜間担当で間断なくストレスを与える</p>
-</li>
-<li>
-<p>電磁波照射は一定期間をすぎると深夜問わず連続照射に切り換わる。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>警察上層部または検察と逮捕されないコンセンサスを取っていたんだろう<br>
-でそれが取れるとめでたくONにしたまま放置（隣人外出も始める）となる</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>電磁波は不明だが超音波止めてるのは自分にも被害が来るからという理由だけでした。</p>
 </li>
 </ul>
 </div>
@@ -1688,7 +1461,7 @@ Your browser does not support the video tag.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-10 10:26:25 +0900
+Last updated 2020-12-04 22:05:55 +0900
 </div>
 </div>
 </body>
