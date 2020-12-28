@@ -109,3 +109,11 @@ a|image::koike1.jpeg[width="300", align="center"]
 a|image::koike2.jpeg[width="300", align="center"]
 a|image::koike3.jpeg[width="300", align="center"]
 |===
+
+=== 12/28
+* 隣からのテクノロジー犯罪はずっとおばさんがメイン担当だったのだが +
+本日は若い男に変わっていた。
+** この部屋は時々鍵を持ってる異なるおっさんが交代したりする +
+一般的に考えるとおかしな生活をしているが神奈川の場合は +
+警察の創価勢力が強いため黙認されている。
+
