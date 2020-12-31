@@ -27,12 +27,13 @@
 == 参考URL
 ////
 * link:http://mkawa.jp/[集団ストーカー問題]
+* link:http://falconworldnet.blog.fc2.com/[FALCONネットワーク]
 ////
 * link:https://shuudanstalker.blogspot.com/2019/09/201994.html[京アニ放火事件　まとめ]
 * link:https://ameblo.jp/ihisa4441/entry-12122858718.html[東電OL殺人事件]
 * link:http://www.rui.jp/ruinet.html?i=200&c=400&m=265279&g=132207[東電OL殺人事件その2]
-* link:http://falconworldnet.blog.fc2.com/[FALCONネットワーク]
 * link:https://blog.goo.ne.jp/regulus_olive[集団ストーカー対策ブログ @regulus_olive]
+* link:https://web.archive.org/web/20160227202623/http://www.e-net.or.jp/user/mblu/ndb/skbk1/sg1/media/mayaku.htm[創価学会と麻薬]
 * link:http://gaslight.braindrops.info/[集団ストーカー辞典]
 * link:http://web.archive.org/web/20190331004144/http://www.gangstalker.info/index.html[集団ストーカー.info]
 * link:https://sites.google.com/site/gangstalkinghksssyk/technology_crime/electromagnetic_wave_damage_and_countermeasures/human_body_intervention_frequency_list_of_radio_waves[周波数一覧]
@@ -144,10 +145,18 @@
 本来送信資格がない人も利用は可能となる
 ** これは創価の自主的な運用制限であって、技術的な制限ではない +
 * 思考盗聴は2種類ある。映像も送信可能なものと、音声のみのV2K
-* V2Kは携帯用の装置で手軽に嫌がらせが可能
 * from link:https://twitter.com/Scott_Free973/status/1292386363132858368[転載元:https://twitter.com/Scott_Free973/status/1292386363132858368]
-
 video::brainjack.mp4[options=autoplay]
+
+=== V2K
+* V2Kは携帯用の装置で手軽に嫌がらせが可能
+* Wikipediaには1960年代の記録があるが、その頃にはすでに実用化レベルのものが出来ている
+* 一般にパルスがどうのこうのと言われているのはこれ
+** 以下のいずれでも送信は可能
+*** パルス波を脳に与える
+*** 搬送波をパルスに見立ててON/OFFする
+*** 搬送波にパルスを乗せる。(要するにAM)
+** 当然搬送波の周波数は攻撃者の好きなように選べるので特定は困難
 
 === 洗脳
 * 思考盗聴が行われる段階にあれば、洗脳はいつでもやられるものとして警戒しなければならない。
@@ -269,10 +278,6 @@ link:record.html[別ページ]に移動
 * 超音波かどうか確定させるために、何らかの測定手法を確立させる必要がある
 
 == わからないこと
-* パルス変調
-** とにかくキャリアを測定してからの話
-*** PAM,PWM,PPM,PFM,PCM(こいつだけは別物)とあってどれのことを言っているのかわからない
-**** PSKかな？
 * 超音波
 ** 遠隔で危害を加えるために何らかのエネルギー伝達手段が必要
 *** 熱エネルギー ⇛ ｘ
