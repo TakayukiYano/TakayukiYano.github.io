@@ -147,6 +147,7 @@
 ** これは創価の自主的な運用制限であって、技術的な制限ではない +
 * 思考盗聴は2種類ある。映像も送信可能なものと、音声のみのV2K
 * from link:https://twitter.com/Scott_Free973/status/1292386363132858368[転載元:https://twitter.com/Scott_Free973/status/1292386363132858368]
+
 video::brainjack.mp4[options=autoplay]
 
 === V2K
