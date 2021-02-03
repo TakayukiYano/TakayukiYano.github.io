@@ -11,6 +11,13 @@
 :cache-uri: "./cache.manifest"
 
 
+=== 2020年
+* link:index.html[top]
+* link:2005record.html[2020年5月]
+* link:2006record.html[2020年6月]
+* link:2007record.html[2020年7月]
+* link:2008record.html[2020年8月〜]
+
 == 日記
 * 犯罪行為のトリガは2015年にｘークスｘｘｘケーションズのきんじょｘゆきｘ
 * ここと現在の攻撃者のつながりは、現在関わっているかどうかも含めて不明
