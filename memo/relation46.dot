@@ -47,11 +47,13 @@ digraph graph_name {
       nene[label="伊藤寧々"]
       junna[label="伊藤純菜"]
       karin[label="伊藤かりん"]
+      matui[label="松井玲奈"]
       kana[label="中田花奈"]
       minami->ringo[style=invis]
       ringo -> junna[style=invis]
       ringo -> karin[label="軍団"]
       sayu->kana[style=invis]
+      sayu->matui[style=invis]
     }
 
     hayashi -> kinkawa[dir=back]
