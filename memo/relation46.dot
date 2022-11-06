@@ -1,0 +1,132 @@
+digraph graph_name {
+  graph [
+    charset = "UTF-8";
+  ];
+
+  node[
+    shape = box 
+    style = "rounded,filled"
+    color = "#FFFFFF",
+    fillcolor = "#FFEEEE",
+  ]mukai;  
+
+  subgraph cluster_korea {
+    label="江戸時代の先祖が朝鮮人と思われる人";
+    fillcolor="#EEEEFF";
+    subgraph cluster_ks {
+      label="創価学会";
+      reika[label="桜井玲香"]
+      erika[label="生田絵梨花"]
+      hayashi[label="林瑠奈"]
+      mukai[label="向井葉月"];
+      subgraph cluster_kk {
+        label="金光教";
+        kakehashi[label="掛橋沙耶香"]
+      };
+    };
+
+  
+    subgraph cluster_kc {
+      label="統一教会";
+      seimiya[label="清宮レイ"]
+      yuna[label="柴田柚菜"]
+      ayame[label="筒井あやめ"]
+      kinkawa[label="金川沙耶"]
+    };
+
+    subgraph cluster_ku {
+      label="不明";
+      ringo[label="松村沙友理"]
+      manatu[label="秋元真夏"]
+      umemayo[label="梅澤美波"];
+      haruchan[label="賀喜遥香"];
+      sakura[label="遠藤さくら"]
+      minami[label="星野みなみ"]
+      sayu[label="井上小百合"]
+      marika[label="伊藤万理華"]
+      nene[label="伊藤寧々"]
+      junna[label="伊藤純菜"]
+      karin[label="伊藤かりん"]
+      minami->ringo[style=invis]
+      ringo -> junna[style=invis]
+      ringo -> karin[label="軍団"]
+    }
+
+    hayashi -> kinkawa[dir=back]
+
+    manatu -> ayame[label="推しメン"]
+    manatu ->marika[style=invis]
+    manatu ->sayu[style=invis]
+    manatu -> nene[style=invis]
+  }
+
+  subgraph cluster_japan {
+    label="江戸時代の先祖が日本人と思われる人";
+    subgraph cluster_jc {
+      label="統一教会";
+      hashimoto[label="橋本奈々未"]
+    }
+
+    subgraph cluster_js {
+      label = "創価学会";
+      hinapyon[label="川後陽菜 猫"]
+      fukagawa[label="深川麻衣 猫"]
+      rarin[label="永島聖羅 猫"]
+    }
+
+    subgraph  cluster_ju {
+      label="不明"
+      himetan[label="中元日芽香"]
+      rotty[label="川村真洋"]
+      waka[label="若月佑美"]
+      misa[label="衛藤美彩"]
+    }
+    rarin -> misa [style=invis]
+  }
+
+  subgraph cluster_unk {
+    label="不明";
+    subgraph cluster_uc {
+      label="統一教会"
+    }
+    subgraph cluster_us {
+      label="創価学会"
+      miduki[label="山下美月"];
+    }
+
+    subgraph cluster_uu {
+      label="謎"
+      yoda[label="与田祐希"]
+    }
+
+    subgraph cluster_uuu {
+      label="不明"
+      maiyan[label="白石麻衣"]
+      nanase[label="西野七瀬"]
+      yuuri[label="斉藤優里"]
+    }
+  }
+
+  subgraph cluster_special {
+    label="その他"
+    asunyan[label="齋藤飛鳥"]
+  }
+
+  mukai->hashimoto[style=invis]
+  hashimoto->kakehashi[style=invis]
+  mukai -> himetan[style=invis]
+  hashimoto -> himetan[style=invis]
+  kakehashi -> sakura[style=invis]
+  sakura -> hinapyon[style=invis]
+  hashimoto -> miduki[dir=both, label="CanCam"]
+  hashimoto -> asunyan[dir=both,label="推しメン"]
+  hashimoto -> fukagawa
+  hashimoto -> hinapyon
+  hashimoto -> yoda
+  hashimoto -> reika[label="セコくない人"]
+  hashimoto -> erika[label="セコくない人"]
+  hashimoto -> ringo[label="CanCam"]
+  ringo -> miduki[label="CanCam"]
+
+  hinapyon -> miduki[style=invis]
+}
