@@ -91,14 +91,14 @@
 <text text-anchor="middle" x="533" y="-405.3" font-family="Times,serif" font-size="14.00">向井葉月</text>
 </g>
 <!-- hashimoto -->
-<g id="node21" class="node">
+<g id="node22" class="node">
 <title>hashimoto</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1220,-597C1220,-597 1156,-597 1156,-597 1150,-597 1144,-591 1144,-585 1144,-585 1144,-573 1144,-573 1144,-567 1150,-561 1156,-561 1156,-561 1220,-561 1220,-561 1226,-561 1232,-567 1232,-573 1232,-573 1232,-585 1232,-585 1232,-591 1226,-597 1220,-597"/>
 <text text-anchor="middle" x="1188" y="-575.3" font-family="Times,serif" font-size="14.00">橋本奈々未</text>
 </g>
 <!-- mukai&#45;&gt;hashimoto -->
 <!-- himetan -->
-<g id="node25" class="node">
+<g id="node26" class="node">
 <title>himetan</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1274,-313C1274,-313 1210,-313 1210,-313 1204,-313 1198,-307 1198,-301 1198,-301 1198,-289 1198,-289 1198,-283 1204,-277 1210,-277 1210,-277 1274,-277 1274,-277 1280,-277 1286,-283 1286,-289 1286,-289 1286,-301 1286,-301 1286,-307 1280,-313 1274,-313"/>
 <text text-anchor="middle" x="1242" y="-291.3" font-family="Times,serif" font-size="14.00">中元日芽香</text>
@@ -129,7 +129,7 @@
 <text text-anchor="middle" x="61" y="-177.3" font-family="Times,serif" font-size="14.00">金川沙耶</text>
 </g>
 <!-- hayashi&#45;&gt;kinkawa -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>hayashi&#45;&gt;kinkawa</title>
 <path fill="none" stroke="black" d="M408.7,-392.47C342.65,-365.33 206.83,-304.93 107,-230 95.18,-221.13 83.68,-209.13 75.14,-199.35"/>
 <polygon fill="black" stroke="black" points="407.73,-395.86 418.31,-396.39 410.37,-389.37 407.73,-395.86"/>
@@ -192,17 +192,17 @@
 <text text-anchor="middle" x="852.5" y="-133.8" font-family="Times,serif" font-size="14.00">軍団</text>
 </g>
 <!-- miduki -->
-<g id="node30" class="node">
+<g id="node31" class="node">
 <title>miduki</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1388,-60C1388,-60 1338,-60 1338,-60 1332,-60 1326,-54 1326,-48 1326,-48 1326,-36 1326,-36 1326,-30 1332,-24 1338,-24 1338,-24 1388,-24 1388,-24 1394,-24 1400,-30 1400,-36 1400,-36 1400,-48 1400,-48 1400,-54 1394,-60 1388,-60"/>
 <text text-anchor="middle" x="1363" y="-38.3" font-family="Times,serif" font-size="14.00">山下美月</text>
 </g>
 <!-- ringo&#45;&gt;miduki -->
-<g id="edge24" class="edge">
+<g id="edge25" class="edge">
 <title>ringo&#45;&gt;miduki</title>
-<path fill="none" stroke="black" d="M882.22,-175.12C998.57,-162.22 1304.91,-127.8 1314,-122 1333.05,-109.83 1345.92,-87.33 1353.67,-69.45"/>
+<path fill="none" stroke="black" d="M882.23,-174.67C1000.09,-160.47 1312.86,-122.73 1314,-122 1333.05,-109.83 1345.92,-87.33 1353.67,-69.45"/>
 <polygon fill="black" stroke="black" points="1356.96,-70.66 1357.46,-60.08 1350.47,-68.04 1356.96,-70.66"/>
-<text text-anchor="middle" x="1284.5" y="-133.8" font-family="Times,serif" font-size="14.00">CanCam</text>
+<text text-anchor="middle" x="1268.5" y="-133.8" font-family="Times,serif" font-size="14.00">CanCam</text>
 </g>
 <!-- manatu -->
 <g id="node11" class="node">
@@ -211,7 +211,7 @@
 <text text-anchor="middle" x="449" y="-291.3" font-family="Times,serif" font-size="14.00">秋元真夏</text>
 </g>
 <!-- manatu&#45;&gt;ayame -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <title>manatu&#45;&gt;ayame</title>
 <path fill="none" stroke="black" d="M411.82,-289.42C363.55,-282.27 277.81,-265.44 213,-230 201.88,-223.92 191.2,-215.05 182.38,-206.59"/>
 <polygon fill="black" stroke="black" points="184.68,-203.95 175.14,-199.34 179.73,-208.89 184.68,-203.95"/>
@@ -251,7 +251,7 @@
 <text text-anchor="middle" x="647" y="-291.3" font-family="Times,serif" font-size="14.00">賀喜遥香</text>
 </g>
 <!-- hinapyon -->
-<g id="node22" class="node">
+<g id="node23" class="node">
 <title>hinapyon</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1112,-427C1112,-427 1044,-427 1044,-427 1038,-427 1032,-421 1032,-415 1032,-415 1032,-403 1032,-403 1032,-397 1038,-391 1044,-391 1044,-391 1112,-391 1112,-391 1118,-391 1124,-397 1124,-403 1124,-403 1124,-415 1124,-415 1124,-421 1118,-427 1112,-427"/>
 <text text-anchor="middle" x="1078" y="-405.3" font-family="Times,serif" font-size="14.00">川後陽菜 猫</text>
@@ -264,15 +264,22 @@
 <text text-anchor="middle" x="838" y="-291.3" font-family="Times,serif" font-size="14.00">星野みなみ</text>
 </g>
 <!-- minami&#45;&gt;ringo -->
+<!-- kana -->
+<g id="node21" class="node">
+<title>kana</title>
+<path fill="#ffeeee" stroke="#ffffff" d="M587,-60C587,-60 537,-60 537,-60 531,-60 525,-54 525,-48 525,-48 525,-36 525,-36 525,-30 531,-24 537,-24 537,-24 587,-24 587,-24 593,-24 599,-30 599,-36 599,-36 599,-48 599,-48 599,-54 593,-60 587,-60"/>
+<text text-anchor="middle" x="562" y="-38.3" font-family="Times,serif" font-size="14.00">中田花奈</text>
+</g>
+<!-- sayu&#45;&gt;kana -->
 <!-- hashimoto&#45;&gt;reika -->
-<g id="edge21" class="edge">
+<g id="edge22" class="edge">
 <title>hashimoto&#45;&gt;reika</title>
 <path fill="none" stroke="black" d="M1143.86,-578.14C1039.48,-577.94 780.25,-574.22 700,-543 657.2,-526.35 637.98,-471.32 630.03,-437.49"/>
 <polygon fill="black" stroke="black" points="633.36,-436.35 627.83,-427.32 626.52,-437.84 633.36,-436.35"/>
 <text text-anchor="middle" x="743" y="-531.8" font-family="Times,serif" font-size="14.00">セコくない人</text>
 </g>
 <!-- hashimoto&#45;&gt;erika -->
-<g id="edge22" class="edge">
+<g id="edge23" class="edge">
 <title>hashimoto&#45;&gt;erika</title>
 <path fill="none" stroke="black" d="M1143.71,-577.2C1049.08,-574.66 831.11,-564.05 774,-520 747.72,-499.73 734.83,-462.5 728.81,-437.02"/>
 <polygon fill="black" stroke="black" points="732.23,-436.27 726.7,-427.23 725.39,-437.74 732.23,-436.27"/>
@@ -280,33 +287,33 @@
 </g>
 <!-- hashimoto&#45;&gt;kakehashi -->
 <!-- hashimoto&#45;&gt;ringo -->
-<g id="edge23" class="edge">
+<g id="edge24" class="edge">
 <title>hashimoto&#45;&gt;ringo</title>
 <path fill="none" stroke="black" d="M1219.59,-560.86C1234.23,-551.03 1250.11,-537.21 1258,-520 1306.55,-414.13 1373.07,-350.06 1298,-261 1246.65,-200.08 1002.74,-186.14 892.42,-182.95"/>
 <polygon fill="black" stroke="black" points="892.26,-179.44 882.17,-182.67 892.07,-186.44 892.26,-179.44"/>
 <text text-anchor="middle" x="1355.5" y="-355.8" font-family="Times,serif" font-size="14.00">CanCam</text>
 </g>
 <!-- hashimoto&#45;&gt;hinapyon -->
-<g id="edge19" class="edge">
+<g id="edge20" class="edge">
 <title>hashimoto&#45;&gt;hinapyon</title>
 <path fill="none" stroke="black" d="M1169.19,-560.92C1157.81,-549.95 1143.51,-535 1133,-520 1114.43,-493.5 1098.57,-459.82 1088.72,-436.75"/>
 <polygon fill="black" stroke="black" points="1091.84,-435.14 1084.75,-427.26 1085.38,-437.84 1091.84,-435.14"/>
 </g>
 <!-- fukagawa -->
-<g id="node23" class="node">
+<g id="node24" class="node">
 <title>fukagawa</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1222,-427C1222,-427 1154,-427 1154,-427 1148,-427 1142,-421 1142,-415 1142,-415 1142,-403 1142,-403 1142,-397 1148,-391 1154,-391 1154,-391 1222,-391 1222,-391 1228,-391 1234,-397 1234,-403 1234,-403 1234,-415 1234,-415 1234,-421 1228,-427 1222,-427"/>
 <text text-anchor="middle" x="1188" y="-405.3" font-family="Times,serif" font-size="14.00">深川麻衣 猫</text>
 </g>
 <!-- hashimoto&#45;&gt;fukagawa -->
-<g id="edge18" class="edge">
+<g id="edge19" class="edge">
 <title>hashimoto&#45;&gt;fukagawa</title>
 <path fill="none" stroke="black" d="M1188,-560.97C1188,-531.91 1188,-472.52 1188,-437.52"/>
 <polygon fill="black" stroke="black" points="1191.5,-437.08 1188,-427.08 1184.5,-437.08 1191.5,-437.08"/>
 </g>
 <!-- hashimoto&#45;&gt;himetan -->
 <!-- hashimoto&#45;&gt;miduki -->
-<g id="edge16" class="edge">
+<g id="edge17" class="edge">
 <title>hashimoto&#45;&gt;miduki</title>
 <path fill="none" stroke="black" d="M1241.38,-560.54C1263.47,-551.24 1288.07,-537.95 1306,-520 1359.94,-466 1366.17,-441.22 1384,-367 1409.85,-259.38 1383.69,-126.25 1370.1,-70.05"/>
 <polygon fill="black" stroke="black" points="1240.05,-557.3 1232.08,-564.28 1242.67,-563.79 1240.05,-557.3"/>
@@ -314,25 +321,25 @@
 <text text-anchor="middle" x="1418.5" y="-291.3" font-family="Times,serif" font-size="14.00">CanCam</text>
 </g>
 <!-- yoda -->
-<g id="node31" class="node">
+<g id="node32" class="node">
 <title>yoda</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1486,-60C1486,-60 1436,-60 1436,-60 1430,-60 1424,-54 1424,-48 1424,-48 1424,-36 1424,-36 1424,-30 1430,-24 1436,-24 1436,-24 1486,-24 1486,-24 1492,-24 1498,-30 1498,-36 1498,-36 1498,-48 1498,-48 1498,-54 1492,-60 1486,-60"/>
 <text text-anchor="middle" x="1461" y="-38.3" font-family="Times,serif" font-size="14.00">与田祐希</text>
 </g>
 <!-- hashimoto&#45;&gt;yoda -->
-<g id="edge20" class="edge">
+<g id="edge21" class="edge">
 <title>hashimoto&#45;&gt;yoda</title>
 <path fill="none" stroke="black" d="M1232.18,-573.09C1314.03,-561.29 1481,-523.32 1481,-410 1481,-410 1481,-410 1481,-180 1481,-141.59 1473.21,-97.76 1467.35,-70.23"/>
 <polygon fill="black" stroke="black" points="1470.71,-69.2 1465.14,-60.18 1463.87,-70.7 1470.71,-69.2"/>
 </g>
 <!-- asunyan -->
-<g id="node35" class="node">
+<g id="node36" class="node">
 <title>asunyan</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1571,-427C1571,-427 1521,-427 1521,-427 1515,-427 1509,-421 1509,-415 1509,-415 1509,-403 1509,-403 1509,-397 1515,-391 1521,-391 1521,-391 1571,-391 1571,-391 1577,-391 1583,-397 1583,-403 1583,-403 1583,-415 1583,-415 1583,-421 1577,-427 1571,-427"/>
 <text text-anchor="middle" x="1546" y="-405.3" font-family="Times,serif" font-size="14.00">齋藤飛鳥</text>
 </g>
 <!-- hashimoto&#45;&gt;asunyan -->
-<g id="edge17" class="edge">
+<g id="edge18" class="edge">
 <title>hashimoto&#45;&gt;asunyan</title>
 <path fill="none" stroke="black" d="M1242.19,-578.4C1319.59,-577.9 1456.7,-572.67 1495,-543 1527.88,-517.53 1539.57,-468.13 1543.72,-437.23"/>
 <polygon fill="black" stroke="black" points="1242.13,-574.9 1232.14,-578.44 1242.15,-581.9 1242.13,-574.9"/>
@@ -341,50 +348,50 @@
 </g>
 <!-- hinapyon&#45;&gt;miduki -->
 <!-- rarin -->
-<g id="node24" class="node">
+<g id="node25" class="node">
 <title>rarin</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1002,-427C1002,-427 934,-427 934,-427 928,-427 922,-421 922,-415 922,-415 922,-403 922,-403 922,-397 928,-391 934,-391 934,-391 1002,-391 1002,-391 1008,-391 1014,-397 1014,-403 1014,-403 1014,-415 1014,-415 1014,-421 1008,-427 1002,-427"/>
 <text text-anchor="middle" x="968" y="-405.3" font-family="Times,serif" font-size="14.00">永島聖羅 猫</text>
 </g>
 <!-- misa -->
-<g id="node28" class="node">
+<g id="node29" class="node">
 <title>misa</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M984,-313C984,-313 934,-313 934,-313 928,-313 922,-307 922,-301 922,-301 922,-289 922,-289 922,-283 928,-277 934,-277 934,-277 984,-277 984,-277 990,-277 996,-283 996,-289 996,-289 996,-301 996,-301 996,-307 990,-313 984,-313"/>
 <text text-anchor="middle" x="959" y="-291.3" font-family="Times,serif" font-size="14.00">衛藤美彩</text>
 </g>
 <!-- rarin&#45;&gt;misa -->
 <!-- rotty -->
-<g id="node26" class="node">
+<g id="node27" class="node">
 <title>rotty</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1168,-313C1168,-313 1118,-313 1118,-313 1112,-313 1106,-307 1106,-301 1106,-301 1106,-289 1106,-289 1106,-283 1112,-277 1118,-277 1118,-277 1168,-277 1168,-277 1174,-277 1180,-283 1180,-289 1180,-289 1180,-301 1180,-301 1180,-307 1174,-313 1168,-313"/>
 <text text-anchor="middle" x="1143" y="-291.3" font-family="Times,serif" font-size="14.00">川村真洋</text>
 </g>
 <!-- waka -->
-<g id="node27" class="node">
+<g id="node28" class="node">
 <title>waka</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1076,-313C1076,-313 1026,-313 1026,-313 1020,-313 1014,-307 1014,-301 1014,-301 1014,-289 1014,-289 1014,-283 1020,-277 1026,-277 1026,-277 1076,-277 1076,-277 1082,-277 1088,-283 1088,-289 1088,-289 1088,-301 1088,-301 1088,-307 1082,-313 1076,-313"/>
 <text text-anchor="middle" x="1051" y="-291.3" font-family="Times,serif" font-size="14.00">若月佑美</text>
 </g>
 <!-- chima -->
-<g id="node29" class="node">
+<g id="node30" class="node">
 <title>chima</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1584,-60C1584,-60 1534,-60 1534,-60 1528,-60 1522,-54 1522,-48 1522,-48 1522,-36 1522,-36 1522,-30 1528,-24 1534,-24 1534,-24 1584,-24 1584,-24 1590,-24 1596,-30 1596,-36 1596,-36 1596,-48 1596,-48 1596,-54 1590,-60 1584,-60"/>
 <text text-anchor="middle" x="1559" y="-38.3" font-family="Times,serif" font-size="14.00">樋口日奈</text>
 </g>
 <!-- maiyan -->
-<g id="node32" class="node">
+<g id="node33" class="node">
 <title>maiyan</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1290,-60C1290,-60 1240,-60 1240,-60 1234,-60 1228,-54 1228,-48 1228,-48 1228,-36 1228,-36 1228,-30 1234,-24 1240,-24 1240,-24 1290,-24 1290,-24 1296,-24 1302,-30 1302,-36 1302,-36 1302,-48 1302,-48 1302,-54 1296,-60 1290,-60"/>
 <text text-anchor="middle" x="1265" y="-38.3" font-family="Times,serif" font-size="14.00">白石麻衣</text>
 </g>
 <!-- nanase -->
-<g id="node33" class="node">
+<g id="node34" class="node">
 <title>nanase</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1198,-60C1198,-60 1148,-60 1148,-60 1142,-60 1136,-54 1136,-48 1136,-48 1136,-36 1136,-36 1136,-30 1142,-24 1148,-24 1148,-24 1198,-24 1198,-24 1204,-24 1210,-30 1210,-36 1210,-36 1210,-48 1210,-48 1210,-54 1204,-60 1198,-60"/>
 <text text-anchor="middle" x="1173" y="-38.3" font-family="Times,serif" font-size="14.00">西野七瀬</text>
 </g>
 <!-- yuuri -->
-<g id="node34" class="node">
+<g id="node35" class="node">
 <title>yuuri</title>
 <path fill="#ffeeee" stroke="#ffffff" d="M1106,-60C1106,-60 1056,-60 1056,-60 1050,-60 1044,-54 1044,-48 1044,-48 1044,-36 1044,-36 1044,-30 1050,-24 1056,-24 1056,-24 1106,-24 1106,-24 1112,-24 1118,-30 1118,-36 1118,-36 1118,-48 1118,-48 1118,-54 1112,-60 1106,-60"/>
 <text text-anchor="middle" x="1081" y="-38.3" font-family="Times,serif" font-size="14.00">斉藤優里</text>
