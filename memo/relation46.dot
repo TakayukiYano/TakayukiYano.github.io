@@ -88,6 +88,7 @@ digraph graph_name {
     label="不明";
     subgraph cluster_uc {
       label="統一教会"
+      chima[label="樋口日奈"]
     }
     subgraph cluster_us {
       label="創価学会"
